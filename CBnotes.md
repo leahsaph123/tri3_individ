@@ -1,5 +1,8 @@
 {% include jekyllnav.html %}
 
+layout: page
+title: "CB notes"
+
 # Notes on College Board Videos 
 
 ## Github Pages assignment 5.1-5.2
