@@ -1,3 +1,6 @@
+## Week 0 Review Ticket
+[Review Ticket](https://github.com/leahsaph123/tri3_individ/issues/1)
+
 ## Github Pages assignment 5.1-5.2
 
 ### 5.1
