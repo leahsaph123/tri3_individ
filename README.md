@@ -1,9 +1,3 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/leahsaph123/tri3_individ/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
 ## Github Pages assignment 5.1-5.2
 
 ### 5.1
@@ -20,6 +14,16 @@ How does someone that is empowered help someone that is not empowered? Describe 
 Teach others how to code, help others get access to computers
 Is paper or red tape (beauracracy) blocking digital empowerment? Are there such barriers at Del Norte? Elsewhere?
 the wifi at DN blocks a lot of things that could help us or blocks our own websites
+
+## Create Task
+Our plan for the create task is to create a Planning website similar to Notion.
+We will make it a combination between MyConnect, the CSP website, a scrumboard, and an individual planner.
+
+## Welcome to GitHub Pages
+
+You can use the [editor on GitHub](https://github.com/leahsaph123/tri3_individ/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
