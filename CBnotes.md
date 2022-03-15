@@ -1,8 +1,5 @@
 {% include jekyllnav.html %}
 
-layout: page
-title: "CB notes"
-
 # Notes on College Board Videos 
 
 ## 5.3-5.4
