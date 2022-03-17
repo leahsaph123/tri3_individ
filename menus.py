@@ -2,19 +2,52 @@
 Introduction to Console Programming
 Writing a function to print a menu
 """
+import treedraw, fibonacci, listsandloops
 
-
-# Menu options in print statement
-def print_menu1():
-    print('1 -- Stringy' )
-    print('2 -- Numby' )
-    print('3 -- Listy' )
-    print('4 -- Exit' )
-    runOptions()
-
+# main_menu = {
+#     1: "menus",
+#     2: "tree",
+#     3: "fibonacci",
+#     4: "lists and loops",
+#     5: "exit"
+# }
+#
+# def print_main():
+#     for key in main_menu.keys():
+#         print(key, '---', main_menu[key])
+#     runMainOpt()
+#
+# def tree():
+#     treedraw.drawTree()
+#
+# def fib():
+#     fibonacci.fibonacci()
+#
+# def landl():
+#     listsandloops.run_loops()
+#
+# def runMainOpt():
+#     while True:
+#         try:
+#             option = int(input("Enter your choice: "))
+#             if option == 1:
+#                 print_menu2()
+#             elif option == 2:
+#                 tree()
+#             elif option == 3:
+#                 fib()
+#             elif option == 4:
+#                 landl()
+#             elif option == 5:
+#                 print("That's all!")
+#                 exit()
+#             else:
+#                 print("Invalid option. choose a number between 1 and 4")
+#         except ValueError:
+#             print("Invalid input. Please enter and integer")
 
 # Menu options as a dictionary
-menu_options = {
+sub_menu_options = {
     1: 'Red',
     2: 'Green',
     3: 'Blue',
@@ -24,8 +57,8 @@ menu_options = {
 
 # Print menu options from dictionary key/value pair
 def print_menu2():
-    for key in menu_options.keys():
-        print(key, '--', menu_options[key] )
+    for key in sub_menu_options.keys():
+        print(key, '--', sub_menu_options[key])
     runOptions()
 
 # menu option 1
@@ -69,8 +102,6 @@ def red_menu_submenu():
                 print('Invalid option. Please enter a number between 1 and 4.')
         except ValueError:
             print('Invalid input. Please enter an integer input.')
-
-
 
 
 # menu option 2
@@ -141,3 +172,4 @@ def runOptions():
 if __name__=='__main__':
     # print_menu1()
     print_menu2()
+    #print_main()
