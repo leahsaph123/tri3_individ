@@ -53,8 +53,9 @@ def runOptions():
             print("2: treedraw")
             print("3: fibonacci")
             print("4: lists and loops")
-            print("5: exit")
-            option = int(input('Enter your choice 1-4: '))
+            print("5: ship")
+            print("6: exit")
+            option = int(input('Enter your choice 1-5: '))
             if option == 1:
                 submenu()
             elif option == 2:
@@ -68,7 +69,6 @@ def runOptions():
                 shipp()
             # Exit menu
             elif option == 6:
-                print('Exiting! Thank you! Good Bye...')
                 print('Exciting! Thank you! Good Bye...')
                 exit() # exit out of the (infinite) while loop
             else:
