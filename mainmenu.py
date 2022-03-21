@@ -2,6 +2,7 @@ import fibonacci
 import menus
 import treedraw
 import listsandloops
+import ship
 
 # Menu options as a dictionary
 menu_options = {
@@ -9,7 +10,8 @@ menu_options = {
     2: 'treedraw',
     3: 'fibonacci',
     4: 'lists and loops',
-    5: 'exit'
+    5: 'ship',
+    6: 'exit'
 }
 
 
@@ -38,6 +40,9 @@ def fibo():
 def landl():
     listsandloops.run_loops()
 
+def shipp():
+  ship.ship()
+
 
 # call functions based on input choice
 def runOptions():
@@ -60,6 +65,10 @@ def runOptions():
                 landl()
             # Exit menu
             elif option == 5:
+                shipp()
+            # Exit menu
+            elif option == 6:
+                print('Exiting! Thank you! Good Bye...')
                 print('Exciting! Thank you! Good Bye...')
                 exit() # exit out of the (infinite) while loop
             else:
