@@ -1,5 +1,7 @@
+# empty list
 list = []
 
+# adding to list
 list.append({
         "name": "Leah",
         "grade": "12",
@@ -40,7 +42,7 @@ def recursive_loop(entry):
         recursive_loop(entry + 1)
     return
 
-
+# user chooses which loop to use
 def run_loops():
     option = input("would you like to run a for, while, or recursive loop? Please answer with a 'for', 'while', or 'recursive': ")
 

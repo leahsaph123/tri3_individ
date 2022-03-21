@@ -17,7 +17,7 @@ menu_options = {
 def print_menu2():
     for key in menu_options.keys():
         print(key, '--', menu_options[key] )
-    runOptions()
+    #runOptions()
 
 
 # menu option 1
@@ -44,6 +44,11 @@ def runOptions():
     # infinite loop to accept/process user menu choice
     while True:
         try:
+            print("1: submenu")
+            print("2: treedraw")
+            print("3: fibonacci")
+            print("4: lists and loops")
+            print("5: exit")
             option = int(input('Enter your choice 1-4: '))
             if option == 1:
                 submenu()
@@ -55,7 +60,7 @@ def runOptions():
                 landl()
             # Exit menu
             elif option == 5:
-                print('Exiting! Thank you! Good Bye...')
+                print('Exciting! Thank you! Good Bye...')
                 exit() # exit out of the (infinite) while loop
             else:
                 print('Invalid option. Please enter a number between 1 and 4.')
@@ -63,4 +68,4 @@ def runOptions():
             print('Invalid input. Please enter an integer input.')
 
 if __name__=='__main__':
-    print_menu2()
+    runOptions()

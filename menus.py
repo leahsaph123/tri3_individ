@@ -2,49 +2,7 @@
 Introduction to Console Programming
 Writing a function to print a menu
 """
-import treedraw, fibonacci, listsandloops
-
-# main_menu = {
-#     1: "menus",
-#     2: "tree",
-#     3: "fibonacci",
-#     4: "lists and loops",
-#     5: "exit"
-# }
-#
-# def print_main():
-#     for key in main_menu.keys():
-#         print(key, '---', main_menu[key])
-#     runMainOpt()
-#
-# def tree():
-#     treedraw.drawTree()
-#
-# def fib():
-#     fibonacci.fibonacci()
-#
-# def landl():
-#     listsandloops.run_loops()
-#
-# def runMainOpt():
-#     while True:
-#         try:
-#             option = int(input("Enter your choice: "))
-#             if option == 1:
-#                 print_menu2()
-#             elif option == 2:
-#                 tree()
-#             elif option == 3:
-#                 fib()
-#             elif option == 4:
-#                 landl()
-#             elif option == 5:
-#                 print("That's all!")
-#                 exit()
-#             else:
-#                 print("Invalid option. choose a number between 1 and 4")
-#         except ValueError:
-#             print("Invalid input. Please enter and integer")
+import mainmenu
 
 # Menu options as a dictionary
 sub_menu_options = {
@@ -82,24 +40,22 @@ def red_menu_submenu():
             if option == 1:
                 print('something good will happen to you tomorrow')
                 print('Exiting! Thank you! Good Bye...')
-                exit() # exit out of the (infinite) while loop
+
             elif option == 2:
                 print('you will die eventually')
                 print('Exiting! Thank you! Good Bye...')
-                exit() # exit out of the (infinite) while loop
             elif option == 3:
                 print('you will be rich')
                 print('Exiting! Thank you! Good Bye...')
-                exit() # exit out of the (infinite) while loop
             elif option == 4:
                 print('you will do well on something')
                 print('Exiting! Thank you! Good Bye...')
-                exit() # exit out of the (infinite) while loop
             elif option == 5:
                 print('Exiting! Thank you! Good Bye...')
                 exit() # exit out of the (infinite) while loop
             else:
                 print('Invalid option. Please enter a number between 1 and 4.')
+            mainmenu.runOptions()
         except ValueError:
             print('Invalid input. Please enter an integer input.')
 
@@ -147,6 +103,7 @@ def purple():
 
 # call functions based on input choice
 def runOptions():
+    attempts = 0
     # infinite loop to accept/process user menu choice
     while True:
         try:
@@ -167,6 +124,7 @@ def runOptions():
                 print('Invalid option. Please enter a number between 1 and 4.')
         except ValueError:
             print('Invalid input. Please enter an integer input.')
+        attempts += 1
 
 
 if __name__=='__main__':
