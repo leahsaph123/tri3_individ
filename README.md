@@ -1,5 +1,8 @@
 {% include jekyllnav.html %}
 
+## Week 1 Review Ticket
+[Review Ticket](https://github.com/leahsaph123/tri3_individ/issues/2)
+
 ## Week 0 Review Ticket
 [Review Ticket](https://github.com/leahsaph123/tri3_individ/issues/1)
 
