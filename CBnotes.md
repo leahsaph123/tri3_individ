@@ -22,6 +22,12 @@
 -- the development of algorithms that include bias
 -- the existence of computing devices that collect and analyze data by continuously monitoring activities
 
+### 5.5 Github Page Assignment
+- there's a lot of licenses, need the right license in order to make money off their patents
+- MIT license- allowed to use code freely, closed source versions
+- GPL license- can do anything except closed source versions
+- I picked MIT license so that we can distribute everything but keep it protected
+
 ### 5.6 Safe Computing
 - Personally identifiable information (PII) is information about an individual that identifies, links, relates, or describes them. Examples of PII include: Social Security number, age, race, phone number(s), medical information, financial information
 - Search engines can record and maintain a history of searches made by users.
@@ -38,6 +44,14 @@
 - Once information is placed online, it is difficult to delete.
 - Programs can collect your location and record where you have been, how you got there, and how long you were at a given location.
 - Information posted to social media services can be used by others. Combining information posted on social media and other sources can be used to deduce private information about you.
+
+### 5.6 Github Page Assignment
+1. our names are on our projects, school
+2. I'm pretty exposed but I think it's really hard not to be
+3. strong passwords are hard to guess, two-factor authentication, security questions, email confirmation things, duo are used for authentication
+4. symmetric-one key is used to encrypt and decrypt something, asymmetric- aka public key cryptography, there's a public and private key that are used to decrypt and encrypt information
+5. public key through aws
+6. phishing- emails from a prince telling you that you got money
 
 ## 5.3-5.4
 ### 5.3 Computing Bias
