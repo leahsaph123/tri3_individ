@@ -2,6 +2,43 @@
 
 # Notes on College Board Videos 
 
+## 5.5-5.6
+### 5.5 Legal and Ethical Concerns
+- Material created on a computer is the intellectual property of the creator or an organization.
+- Ease of access and distribution of digitized information raises intellectual property concerns regarding ownership, value, and use.
+- Measures should be taken to safeguard intellectual property.
+- The use of material created by someone else without permission and presented as one’s own is plagiarism and may have legal consequences.
+- Some examples of legal ways to use materials created by someone else include:
+- Creative Commons—a public copyright license that enables the free distribution of an otherwise copyrighted work. This is used when the content creator wants to give others the right to share, use, and build upon the work they have created.
+- open source—programs that are made freely available and may be redistributed and modified
+- open access—online research output free of any and all restrictions on access and free of many restrictions on use, such as copyright or license restrictions
+- The use of material created by someone other than you should always be cited.
+- Creative Commons, open source, and open access have enabled broad access to digital information.
+- As with any technology or medium, using computing to harm individuals or groups of people raises legal and ethical concerns.
+- Computing can play a role in social and political issues, which in turn often raises legal and ethical concerns.
+- The digital divide raises ethical concerns around computing.
+- Computing innovations can raise legal and ethical concerns. Some examples of these include:
+-- the development of software that allows access to digital media downloads and streaming
+-- the development of algorithms that include bias
+-- the existence of computing devices that collect and analyze data by continuously monitoring activities
+
+### 5.6 Safe Computing
+- Personally identifiable information (PII) is information about an individual that identifies, links, relates, or describes them. Examples of PII include: Social Security number, age, race, phone number(s), medical information, financial information
+- Search engines can record and maintain a history of searches made by users.
+- Websites can record and maintain a history of individuals who have viewed their pages.
+- Devices, websites, and networks can collect information about a user’s location.
+- Technology enables the collection, use, and exploitation of information about, by, and for individuals, groups, and institutions.
+- Search engines can use search history to suggest websites or for targeted marketing.
+- Disparate personal data, such as geolocation, cookies, and browsing history, can be aggregated to create knowledge about an individual.
+- PII and other information placed online can be used to enhance a user’s online experiences.
+- PII stored online can be used to simplify making online purchases.
+- Commercial and governmental curation of information may be exploited if privacy and other protections are ignored.
+- Information placed online can be used in ways that were not intended and that may have a harmful impact. For example, an email message may be forwarded, tweets can be retweeted, and social media posts can be viewed by potential employers.
+- PII can be used to stalk or steal the identity of a person or to aid in the planning of other criminal acts.
+- Once information is placed online, it is difficult to delete.
+- Programs can collect your location and record where you have been, how you got there, and how long you were at a given location.
+- Information posted to social media services can be used by others. Combining information posted on social media and other sources can be used to deduce private information about you.
+
 ## 5.3-5.4
 ### 5.3 Computing Bias
 - Computing innovations can reflect existing human biases
