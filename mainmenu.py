@@ -1,8 +1,5 @@
-import fibonacci
-import menus
-import treedraw
-import listsandloops
-import ship
+from week1 import fibonacci, listsandloops
+from week0 import menus, ship, treedraw
 
 # Menu options as a dictionary
 menu_options = {
