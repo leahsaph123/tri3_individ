@@ -1,7 +1,7 @@
 
 def fiboooo():
     n = int(input("number of terms? "))
-    while (n < 0 or n > 50):
+    while (n <= 2 or n > 50):
         n = int(input("please provide a valid input: "))
 
     def fibonacci(number):
@@ -11,5 +11,9 @@ def fiboooo():
             return(fibonacci(number - 1) + fibonacci(number - 2))
 
     for index in range(n):
-        print(fibonacci(index))
+        if index == range(n):
+            print(fibonacci(index), end="")
+        else:
+            print(fibonacci(index), end=", ")
+
 #fiboooo()
