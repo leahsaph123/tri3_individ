@@ -15,9 +15,16 @@ class Factorial:
                 return num
             else:
                 return num*recur_factorial(num-1)
+        list_of_terms = [num]
+
+        for index in range(num - 1):
+            list_of_terms.append(num - index - 1)
+
+        print(num, "factorial is ", list_of_terms)
+
         print("The factorial of", num, "is", recur_factorial(num))
 
 
-fact_of = Factorial() # object instantiation and run __init__ method
+fact_of = Factorial()  # object instantiation and run __init__ method
 #fact_of() # object running __call__ method
 
