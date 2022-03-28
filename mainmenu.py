@@ -1,6 +1,6 @@
 from week0 import menus, ship, treedraw
 from week1 import fibonacci, listsandloops
-from week2 import palindrome
+from week2 import palindrome, factorial
 
 # Menu options as a dictionary
 menuu_options = {
@@ -79,18 +79,21 @@ def print_week1():
 
 
 week2_options = {
-    1: 'palindrome',
-
+    1: 'factorial',
+    2: 'palindrome',
 }
 
 def print_week2():
     while True:
         try:
-            print("\n1: palindrome")
+            print("\n1: factorial")
+            print("2: palindrome")
             print("4: back to main menu")
             option = int(input('Enter your choice: '))
             if option == 1:
-                palii()
+                factorial.fact_of()
+            elif option == 2:
+                palindrome.checksif()
             elif option == 4:
                 break
             # Exit menu
