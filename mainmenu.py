@@ -95,7 +95,9 @@ def print_week2():
             if option == 1:
                 factorial.fact_of()
             elif option == 2:
-                palindrome.checksif()
+                palindrome.checksif(inputted_word="A man, a plan, a canal -- Panama!")
+                palindrome.checksif(inputted_word="racecar")
+                palindrome.checksif(inputted_word="r2acecar")
             elif option == 3:
                 math.runfun()
             elif option == 4:

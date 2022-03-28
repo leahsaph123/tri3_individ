@@ -1,10 +1,7 @@
 class Palindrome:
-    def __init__(self):
-        self.palindrome = []
 
-    def __call__(self):
+    def __call__(self, inputted_word):
         # get user input
-        inputted_word = input("provide a word to check if it's a palindrome :D: ")
 
         # sets characters that aren't allowed
         nope = "1234567890!@#$%^&*()-_=+;:'<,>.?/"
@@ -13,12 +10,18 @@ class Palindrome:
         # iterate through non letters to remove from word
         for character in nope:
             inputted_word = inputted_word.replace(character, "")
+            # inputted_word1 = inputted_word1.replace(character, "")
+            # inputted_word2 = inputted_word2.replace(character, "")
 
         actual_word = inputted_word
+        # actual_word1 = inputted_word1
+        # actual_word2 = inputted_word2
 
         # separates space from rest of the word in order to be able to read the word when it's reprinted
         for character in space_nope:
             inputted_word = inputted_word.replace(character, "")
+            # inputted_word1 = inputted_word1.replace(character, "")
+            # inputted_word2 = inputted_word2.replace(character, "")
 
         # splits word in half so we can compare it to itself
         length = int(len(inputted_word) / 2)
@@ -55,3 +58,4 @@ class Palindrome:
 
 
 checksif = Palindrome() # object instantiation and run __init__ method
+
