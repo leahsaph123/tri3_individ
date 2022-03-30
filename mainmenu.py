@@ -98,6 +98,7 @@ def print_week2():
                 palindrome.checksif(inputted_word="A man, a plan, a canal -- Panama!")
                 palindrome.checksif(inputted_word="racecar")
                 palindrome.checksif(inputted_word="r2acecar")
+                palindrome.checksif(inputted_word="raaceac")
             elif option == 3:
                 math.runfun()
             elif option == 4:

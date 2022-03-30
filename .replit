@@ -1,2 +1,2 @@
 language = "bash"
-run = "python mainmenu.py"
+run = "python w3/rps.py"
