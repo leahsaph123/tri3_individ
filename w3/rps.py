@@ -71,11 +71,11 @@ def rps():
       print(f"Your opponent {comp_move}. Smash, smash, smash!" + colors.lose + " You lose!" + colors.normal)
 
 #repeats the rps() code
-while True:
-  rps()
-  keepPlaying = input("Keep playing? (yes/no)")
-  #clears after question is answered
-  subprocess.call("clear", shell=True)
-  if keepPlaying == 'no':
-    print("Goodbye!")
-    break    
+# while True:
+#   rps()
+#   keepPlaying = input("Keep playing? (yes/no) ")
+#   #clears after question is answered
+#   subprocess.call("clear", shell=True)
+#   if keepPlaying == 'no':
+#     print("Goodbye!")
+#     break    

@@ -1,6 +1,7 @@
 from week0 import menus, ship, treedraw
 from week1 import fibonacci, listsandloops
 from week2 import palindrome, factorial, math
+from w3 import rps
 
 # Menu options as a dictionary
 menuu_options = {
@@ -112,6 +113,30 @@ def print_week2():
         except ValueError:
             print('Invalid input. Please enter an integer input.')
 
+def print_week3():
+  while True:
+    try:
+      print("\n1: rock paper scissors")
+      print("4: back to main menu")
+      option = int(input("Enter your choice: "))
+      if option == 1:
+          while True:
+            rps.rps()
+            keepPlaying = input("Keep playing? (yes/no) ")
+            #clears after question is answered
+            #subprocess.call("clear", shell=True)
+            if keepPlaying == 'no':
+              print("Goodbye!")
+              break 
+      elif option == 4:
+        break
+      elif option == 10:
+                print('Exciting! Thank you! Good Bye...')
+                exit() # exit out of the (infinite) while loop
+      else:
+                print('Invalid option. Please enter a number between 1 and 4.')
+    except ValueError:
+            print('Invalid input. Please enter an integer input.')
 
 # menu option 1
 def submenu():
@@ -155,6 +180,8 @@ def runOptions():
                 print_week1()
             elif option == 2:
                 print_week2()
+            elif option == 3:
+                print_week3()
             # Exit menu
             elif option == 10:
                 print('Exciting! Thank you! Good Bye...')
