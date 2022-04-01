@@ -1,3 +1,4 @@
+{% include jekyllnav.html %}
 
 ### Week 2
 During week 2 I learned how to use Python classes. I made a program that runs the "!" function on a given number, one that finds the derivative of a function, and another one that checks if a word is a palindrome
