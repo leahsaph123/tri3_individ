@@ -1,3 +1,4 @@
+{% include jekyllnav.html %}
 
 ### Week 0
 For week 0 I also made a program that runs an animated ship as well as a program that prints out a Christmas tree with "#"
