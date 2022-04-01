@@ -1,3 +1,4 @@
+{% include jekyllnav.html %}
 
 ### Week 1
 For week 1 I made a program that prints out a fibonacci sequence and a program that prints out a list using a for loop, while loop, or a recursive loop.
