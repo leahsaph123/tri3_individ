@@ -133,4 +133,4 @@ if __name__=='__main__':
     #print_main()
 ```
 
-<iframe frameborder="0" width="100%" height="1000px" src="https://replit.com/@leahbogomolny/tri3_individ?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="1000px" src="https://replit.com/@leahbogomolny/tri3individ?lite=true"></iframe>
