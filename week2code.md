@@ -132,4 +132,4 @@ class Palindrome:
 
 checksif = Palindrome() # object instantiation and run __init__ method
 ```
-<iframe frameborder="0" width="100%" height="1000px" src="https://replit.com/@leahbogomolny/tri3_individ?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="1000px" src="https://replit.com/@leahbogomolny/tri3individ?lite=true"></iframe>
