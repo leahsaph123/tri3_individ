@@ -1,5 +1,9 @@
 {% include jekyllnav.html %}
 
+## Algorithmic Final
+[Video](https://drive.google.com/file/d/10IaRylZbXgTNE97JP8UA9grmx56MhU-3/view?usp=sharing)
+[Review Ticket](https://github.com/leahsaph123/tri3_individ/issues/4)
+
 ## Week 2 Review Ticket
 [Review Ticket](https://github.com/leahsaph123/tri3_individ/issues/3)
 
