@@ -14,7 +14,6 @@ def ocean_print():
     print("\n\n\n\n")
     print(OCEAN_COLOR + "  " * 35)
 
-
 # print ship with colors and leading spaces
 def ship_print(position):
     print(ANSI_HOME_CURSOR)
@@ -26,7 +25,6 @@ def ship_print(position):
     print(sp + "\__ |__/ ")
     print(sp + " \____/  ")
     print(RESET_COLOR)
-
 
 # ship function, iterface into this file
 def ship():

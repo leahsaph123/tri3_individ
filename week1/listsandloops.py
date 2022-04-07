@@ -26,16 +26,20 @@ list.append({
     "group mates": ["Leah", "Jessie", "Allie"]
 })
 
+# different methods for iteration
+# method 1:
 def for_loop():
     for entry in range(len(list)):
         print(list[entry])
 
+# method 2:
 def while_loop():
     entry = 0
     while (entry < len(list)):
         print(list[entry])
         entry += 1
 
+# method 3
 def recursive_loop(entry):
     if entry < len(list):
         print(list[entry])
@@ -46,15 +50,14 @@ def recursive_loop(entry):
 def run_loops():
     option = input("would you like to run a for, while, or recursive loop? Please answer with a 'for', 'while', or 'recursive': ")
 
+  # error checking to make sure input was valid
     while not ((option == "for") or (option == "while") or (option == "recursive")):
         option = input("please give a valid input: ")
 
+  # calling loops
     if (option == "for"):
         for_loop()
     elif (option == "while"):
         while_loop()
     elif (option == "recursive"):
         recursive_loop(entry=0)
-
-#run_loops()
-

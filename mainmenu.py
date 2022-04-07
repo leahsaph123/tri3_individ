@@ -2,6 +2,7 @@ from week0 import menus, ship, treedraw
 from week1 import fibonacci, listsandloops
 from week2 import palindrome, factorial, math
 from w3 import rps
+from week4 import create
 
 # Menu options as a dictionary
 menuu_options = {
@@ -138,6 +139,7 @@ def print_week3():
     except ValueError:
             print('Invalid input. Please enter an integer input.')
 
+
 # menu option 1
 def submenu():
     menus.print_menu2()
@@ -172,6 +174,7 @@ def runOptions():
             print("1: week 1")
             print("2: week 2")
             print("3: week 3")
+            print("4: week 4")
             print("10: exit")
             option = int(input('Enter your choice: '))
             if option == 0:
@@ -182,6 +185,12 @@ def runOptions():
                 print_week2()
             elif option == 3:
                 print_week3()
+            elif option == 4:
+                create.guessing_game()
+                keep_playing = input("would you like to play again? y/n ")
+                while keep_playing == "y":
+                  create.guessing_game()
+                  keep_playing = input("would you like to play again? y/n ")
             # Exit menu
             elif option == 10:
                 print('Exciting! Thank you! Good Bye...')
