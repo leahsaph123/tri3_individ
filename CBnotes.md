@@ -2,6 +2,28 @@
 
 # Notes on College Board Videos 
 
+## University Lecture Videos
+### Data Representation
+- data is stored in bits
+- stored with binary numbers
+- 2^bits = number of values that can be represented with a binary value
+- 0 based counting!!!, range will be 0 to (2^bits)-1
+- pictures are split into pixels and each pixel is a different color
+- steganography- concealing a message within something else
+
+### Computing Systems and Networks
+- 5 parts of a computer- input, output, memory, processor (core) (made of control and datapath)
+- processor guides the data, interacts with input/output through memory storage
+- moore's law- number of transistors on an integrated circuit will double every two years (18 months now)
+- power- measured in watts, amount of energy used
+- frequency got too high, caused the processors to get really hot, had to figure out how to flatline it (2005)
+- started using parallel computing which allowed performance to increase without increasing frequency
+- cores share memory, have to watch that, each processor might do different things
+- amdahl's law- speedup that can be achieved through parallelism is limited by serial portion of your program, speedup = (sequential time)/(parallel time) <= 1/serial
+- even if there's no serial portion- have to divide everything, delegate, not same speed, failure, contention for shared resources, overwriting memory, etc
+- [parallel cat demo](https://pamelafox.github.io/parallel-demo/) visualizes amdahl's law
+- a processor can sometimes work on 2 tihngs at once (hyperthreading)
+
 ## 5.5-5.6
 ### 5.5 Legal and Ethical Concerns
 - Material created on a computer is the intellectual property of the creator or an organization.
